@@ -1,0 +1,30 @@
+<app-header></app-header>
+<div class="home-container">
+    <div class="AllItems">
+        <div class="trendingItems">
+            <div class="top">
+                <h4>Trending Items</h4>
+               
+                
+                <div class="view-all">view-all</div>
+            </div>
+            <div class="items-thumbnails">
+                <div class="item" *ngFor="let item of TrendingItems">
+                
+                    <div class="imageURL">
+                        <img src='../assets/images/{{item.imageURL}}' alt="" srcset="">
+                    </div>
+               
+                    <div class="details">
+                        <div class="name">{{item.name }}</div>
+                            <div class="rating">{{item.rating}}  </div>
+                                
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div> pooular Items </div>
+    

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 17,
+    "name": "Official Shirt",
+    "imageURL": "shirt.jpeg",
+     "rating": 3.45,
+    "reviews": [
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Casual Shirt",
+    "imageURL":"shirt2.jpg", 
+    "rating": 2.53,
+    "reviews": [
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Design Shirt",
+    "imageURL": "vk.jpg" ,
+    "rating": 3.12,
+    "reviews": [
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Jeans Shirt",
+    "imageURL": "jshirt.jpg",
+    "rating": 4.45,
+    "reviews": [
+    
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Tshirt Plane",
+    "imageURL": "tshirt.jpg",
+      "rating": 4.12,
+    "reviews": [
+    ]
+  }
+
+]

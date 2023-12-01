@@ -1,0 +1,26 @@
+<div class="login-container">
+   <div class="shp">
+    <div class="logo"> UVIZ SHOPPING MALL</div>
+    <img src ="assets/images/shp.png" height="600px" width="800px">
+   </div>
+    
+    <div class="desc">
+        Want to go shopping? <br> Today only there's a special deal <br> 30% off in UVIZ SHOPPING MALL!
+
+
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+        <label for="uname">username</label>
+        <input type="text" name="uname" class="form-controll" [(ngModel)]="username"/>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="pword">password</label>
+        <input type="password" name="pword" class="form-controll" [(ngModel)]="password"/>
+    </div>
+     <div class="btn-container">
+        <div class="error">{{errorMsg}}</div>
+        <button class="btn btn-dark" (click)="login()">login</button>
+    </div>
+</div>
